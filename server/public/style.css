@@ -1,0 +1,42 @@
+main {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  text-align: center;
+  background-color: #000;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, h3, h4, p {
+  color: #f1f1f1;
+}
+
+.displayPost {
+  border-bottom: 1px solid gray;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  transition: transform .4s;
+}
+
+.displayPost:hover {
+  transform: scale(1.05);
+}
+
+fieldset {
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+label {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
